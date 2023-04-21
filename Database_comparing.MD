@@ -1,6 +1,6 @@
 # Comparing Databases
 
-databases types can be classified into two types:
+Databases types can be classified into two types:
 -	Relational databases 
 -	NOSQL databases 
 There are also other special databases such as: object oriented databases and time series databases. 
