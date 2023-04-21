@@ -19,6 +19,8 @@ Advantages :
 -	The relational data model uses the relational algebra to access data which facilitate querying complex data. For example SQL is a very rich query language that supports most operations needed for data analysis, especially joins and aggregations..
 -	ACID Transaction support
 -	Data validation using constrains such as uniqueness, primary and foreign keys
+
+
 Disadvantages :
 -	Does not scale much. It’s not suitable for internet scale data. (Some solutions like Teradata exist for solving the volume problem but it’s not enough)
 -	Steep learning curve for SQL
@@ -29,6 +31,8 @@ Key value databases store data stored and access it as a key-value pair: a Key i
 Advantages :
 -	Efficient index on data: very fast data access (access on key for highly distributed data)
 -	Simple data model
+
+
 Disadvantages :
 -	Limited access API (generally only support get, set and sometimes filter. The API support for operators depend on the vendor). This limited access is not suitable for most use cases 
 
@@ -36,6 +40,8 @@ Document-oriented databases store aggregated data, such as JSON, as documents. A
 Advantages :
 -	Enables complex queries like aggregations
 -	Supports Rich filters
+
+
 Disadvantages: 
 -	Slow writes and lack of consistency 
 -	Doesn’t support join operator
@@ -47,6 +53,8 @@ In column-oriented database, data is organized as columns, where each column sto
 Advantages:
 -	Evolving data schema
 -	Efficient column oriented storage
+
+
 Disadvantages :
 -	Slow writes 
 -	bad performance with small data and row based access 
@@ -56,6 +64,8 @@ Graph oriented databases Store the data as a graph and represents the connexions
 
 Advantages : 
 -	Graph algorithms for efficient connected data querying
+
+
 Disadvantages :
 -	Doesn’t support well distribution
 
