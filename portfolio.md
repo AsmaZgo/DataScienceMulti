@@ -4,7 +4,7 @@ This document groups multiple solutions for short data science problems. Here I 
 
 ### **Highlights**
 - System design for an ML training architecture using online and batch learning to solve an anomaly detection problem: https://t.co/7PqZh9yQ83
-- Comparing Databases:  
+- Comparing Databases: https://github.com/AsmaZgo/DataScienceMulti/blob/master/Database_comparing.MD
 - Jupyter notebook for semi supervised learning using Label propagation: https://github.com/AsmaZgo/DataScienceMulti/blob/master/credit-risk-data-semi-supervised.ipynb
 
 ### **Meduim**
