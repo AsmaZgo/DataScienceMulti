@@ -3,6 +3,7 @@
 Databases types can be classified into two types:
 -	Relational databases 
 -	NOSQL databases 
+-	
 There are also other special databases such as: object oriented databases and time series databases. 
 NOSQL databases are generally categorised into four types:
 - key value databases
