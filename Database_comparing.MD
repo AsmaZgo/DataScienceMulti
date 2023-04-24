@@ -10,6 +10,8 @@ NOSQL databases are generally categorised into four types:
 - document databases 
 - graph oriented databases
 - column oriented databases
+
+
 Each database categorie has its own advantages and disadvantages. 
 
 Relational databases are generally used in applications where the data is complex, but the size is relatively small or medium. When we say the data is complex, we mean that there are many relationships (which are called associations in the entity-association model) between different entities, and join queries are frequently used to access the data.
@@ -72,8 +74,9 @@ Disadvantages :
 
 
 The choice of database in a particular system architecture generally depends on the use case. Some classic use cases include :
-Relational databases : financial data like in banks
-Key-value datastores : store data collected in real time for future processing like smart meters data collected from the smart grid
-Document datastore : store blog data which is generally structured as a document. Clients profile data
-Column oriented datastore : store data where use cases are to aggregate a limited number of columns such as data warehouse who aggregate certain number of column values
-Graph datastores are suitable for social networks who have lots of connected data and are applied in industry for Fraud detection. 
+
+- Relational databases : financial data like in banks
+- Key-value datastores : store data collected in real time for future processing like smart meters data collected from the smart grid
+- Document datastore : store blog data which is generally structured as a document. Clients profile data
+- Column oriented datastore : store data where use cases are to aggregate a limited number of columns such as data warehouse who aggregate certain number of column values
+- Graph datastores are suitable for social networks who have lots of connected data and are applied in industry for Fraud detection. 
